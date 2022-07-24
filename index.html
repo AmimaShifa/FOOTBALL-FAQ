@@ -76,9 +76,33 @@ img{
   width:100%;
 }
 
+#trapezoid {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  height: 0;
+  border: 80px solid rgba(0,0,0,0);
+  border-top: 0 solid;
+  border-bottom: 100px solid rgba(1, 1, 1, .4);
+  -webkit-border-radius: 20px 20px 0 0;
+  border-radius: 20px 20px 0 0;
+  font: normal 100%/normal Arial, Helvetica, sans-serif;
+  color: rgba(0,0,0,0.7);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  -webkit-transform: rotateX(180deg);
+  transform: rotateX(180deg);
+  margin-top:-53px;
+  width: 700px;
+  position: relative;
+  transition: all 0.7s ease;
+  padding-left:7%;
+}
+
     </style>
   </head>
-  <body>
+  <body><center>
+     <div id="trapezoid"></div></center>
     <section><br>
     <h1 id="main">FOOTBALL</h1><br>
     <hr width="50%">
@@ -173,9 +197,11 @@ img{
           </div>
         </div>
       </div>
+
   </section>
-  </div>
+
   <button type="button" name="button"><a href="https://www.britannica.com/sports/football-soccer"> For more information click here!</a></button>
   </section>
+
 </body>
 </html>
