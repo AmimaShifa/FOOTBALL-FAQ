@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <link href="https://fonts.googleapis.com/css2?family=Amiri&family=Volkhov:wght@400;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/bf3617efdc.js" crossorigin="anonymous"></script>
     <title>FOOTBALL</title>
     <style media="screen">
     .menu-bar {
@@ -41,9 +42,7 @@ display:block;
 
       }
       #main{
-        width:75%;
-        margin: 40px auto 40px;
-         padding-bottom: 0px;
+       padding-bottom: 0px;
 
 }
 
@@ -116,8 +115,37 @@ margin: 0px auto 25px;
 img{
   width:100%;
 }
-.nav-containe{
+details>summary span.icon {
+  width: 24px;
+  height: 24px;
+  transition: all 0.3s;
+  margin-left: auto;
+}
 
+details[open] summary span.icon {
+  transform: rotate(180deg);
+}
+
+summary {
+  display: flex;
+  cursor: pointer;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+summary{
+  color:fuchsia;
+  font-weight: bold;
+  font-family: 'Amiri', serif;
+  font-size: 20px;
+}
+.moreinfo{
+  margin-left: 20px !important;
+  font-size: small;
+  font-family: monospace;
+  text-align:justify;
+  line-height: 26px;
 }
 
     </style>
@@ -132,105 +160,40 @@ img{
 </ul><br><br>
 </div>
     <section><br>
+       <section id="intro">
     <h1 id="main">FOOTBALL</h1><br>
-    <hr width="50%">
+    <hr width="100%">
     <div id="main">
   <ul type="disc"> <li><p><u><h3>Basic Introduction </h3></u>
   Football, also called association football or soccer, game in which two teams of 11 players, using any part of their bodies except their hands and arms, try to maneuver the ball into the opposing team’s goal. Only the goalkeeper is permitted to handle the ball and may do so only within the penalty area surrounding the goal. The team that scores more goals wins.</p>
-    <img height="160px" width="400px" src="https://66.media.tumblr.com/ec9e238fdaa363ade7cc404e58c64285/tumblr_n74payaGWb1tbh1dho1_400.gifv" alt="football game being played"></li>
+    <img height="160px" width="400px" src="https://66.media.tumblr.com/ec9e238fdaa363ade7cc404e58c64285/tumblr_n74payaGWb1tbh1dho1_400.gifv" alt="football game being played"></li></ul>
+  </section>
+  <section id="top-leagues">
+  <ul type="disc">
 <li><h3><u>Top Leagues in Football</u></h3>
-1. English Premier League <br>
+  <details>
+    <summary>
+     1. English Premier League
+      <span class="icon"><i class="fa-solid fa-arrow-down"></i></span>
+    </summary>
+<div class="moreinfo">
+      The Premier League (legal name: The Football Association Premier League Limited), is the top level of the English football league system. Contested by 20 clubs, it operates on a system of promotion and relegation with the English Football League (EFL). Seasons typically run from August to May with each team playing 38 matches (playing all 19 other teams both home and away).Most games are played on Saturday and Sunday afternoons, with occasional weekday evening fixtures.
+  <br>
+  The competition was founded as the FA Carling Premiership on 20 February 1992 following the decision of clubs in the Football League First Division to break away from the Football League, founded in 1888, and take advantage of a lucrative television rights sale to Sky.<br>
+  The Premier League is a corporation where chief executive Richard Masters is responsible for its management, whilst the member clubs act as shareholders. Clubs were apportioned central payment revenues of £2.4 billion in 2016–17, with a further £343 million in solidarity payments to English Football League (EFL) clubs.<br>
+  The Premier League is the most-watched sports league in the world, broadcast in 212 territories to 643 million homes and a potential TV audience of 4.7 billion people.</div>
+  <center><hr width="100%" style="margin-bottom:10px;margin-top:5px;"></center></details>
 2. Spanish La Liga<br>
 3. German Bundesliga<br>
 4. Italian Serie A<br>
 5. UEFA Champions League
 </li>
 </ul>
-<section class="Top-Leagues">
-	<div class="container-fluid">
-        <div class="articles">
-        	<main id="main-doc">
-        		<section class="main-section" id="Premier_League">
-                    <header>Premier League</header>
-                     <article>
-
-                     	<p> The Premier League, often referred to outside the UK as the English Premier League, or sometimes the EPL, <p>(legal name: The Football Association Premier League Limited) is the top level of the English football league system. Contested by 20 clubs,<p>
-                       it operates on a system of promotion and relegation with the English Football League (EFL).<p>
-                     	<p>
-                     		In 1990, the managing director of London Weekend Television (LWT), Greg Dyke, met with the representatives of the "big five" football clubs in England (Manchester United, Liverpool, Tottenham Hotspur, Everton and Arsenal) over a dinner.[26] The meeting was to pave the way for a breakaway from The Football League.[27] Dyke believed that it would be more lucrative for LWT if only the larger clubs in the country were featured on national television and wanted to establish whether the clubs would be interested in a larger share of television rights money.[28] The five clubs agreed with the suggestion and decided to press ahead with it; however, the league would have no credibility without the backing of The Football Association, and so David Dein of Arsenal held talks to see whether the FA were receptive to the idea. The FA did not enjoy an amicable relationship with the Football League at the time and considered it as a way to weaken the Football League's position.[29] The FA released a report in June 1991, Blueprint for the Future of Football, that supported the plan for Premier League with FA the ultimate authority that would oversee the breakaway league.[24]
-                     	</p>
-                        <ul>
-                        	<li>he Premier League is the most-watched sports league in the world</li>
-                        	<li>The Football Association Premier League Ltd (FAPL)[58][59][60] is operated as a corporation and is owned by the 20 member clubs</li>
-                        	<li>There are 20 clubs in the Premier League.</li>
-                        	<li>49 clubs have played in the Premier League from its inception in 1992, up to and including the 2020–21 season</li>
-                        	<li>A system of promotion and relegation exists between the Premier League and the EFL Championship.</li>
-                        </ul>
-
-                      </article>
-                    </section>
-                    <section class="main-section" id="La_League">
-                    <header>La League</header>
-                     <article>
-
-                     	<p> The Campeonato Nacional de Liga de Primera División,[a] commonly known simply as La Liga[b] and officially as LaLiga Santander for sponsorship reasons,[2] stylized as LaLiga, is the men's top professional football division of the Spanish football league system.[3] Administered by the Liga Nacional de Fútbol Profesional,[c] is contested by 20 teams, with the three lowest-placed teams at the end of each season relegated to the Segunda División and replaced by the top two teams and a play-off winner in that division. </p>
-
-                      </article>
-                    </section>
-                    <section class="main-section" id="SeriaA">
-                    <header>SeriaA</header>
-                     <article>
-
-                     	<p> Serie A (Italian pronunciation: [ˈsɛːrje ˈa][1]), also called Serie A TIM due to sponsorship by TIM,[2] is a professional league competition for football clubs located at the top of the Italian football league system and the winner is awarded the Scudetto and the Coppa Campioni d'Italia. It has been operating as a round-robin tournament for over ninety years since the 1929–30 season. It had been organized by the Direttorio Divisioni Superiori until 1943 and the Lega Calcio until 2010, when the Lega Serie A was created for the 2010–11 season. Serie A is regarded as one of the best football leagues in the world and it is often depicted as the most tactical and defensively sound national league.</p>
-                         <p> [3] Serie A was the world's strongest national league in 2020 according to IFFHS,[4] and is ranked third among European leagues according to UEFA's league coefficient, behind La Liga and the Premier League and ahead of the Bundesliga and Ligue 1, which is based on the performance of Italian clubs in the Champions League and the Europa League during the previous five years. Serie A led the UEFA ranking from 1986 to 1988 and from 1990 to 1999.[5]
-                          </p>
-
-                      </article>
-                    </section>
-                     <section class="main-section" id="Bundesliga">
-                    <header>Bundesliga</header>
-                     <article>
-
-                     	<p>The Bundesliga (German: [ˈbʊndəsˌliːɡa] (About this soundlisten); lit. 'Federal League'), sometimes referred to as the Fußball-Bundesliga ([ˌfuːsbal-]) or 1. Bundesliga ([ˌeːɐ̯stə-]), is a professional association football league in Germany. At the top of the German football league system, the Bundesliga is Germany's primary football competition. The Bundesliga comprises 18 teams and operates on a system of promotion and relegation with the 2. Bundesliga. Seasons run from August to May. Most games are played on Saturdays and Sundays, with a few games played on weekdays. All of the Bundesliga clubs qualify for the DFB-Pokal. The winner of the Bundesliga qualifies for the DFL-Supercup. </p>
-
-                      </article>leag
-                    </section>
-                      <section class="main-section" id="Ligue_1">
-                    <header>Ligue_1</header>
-                     <article>
-
-                     	<p> Ligue 1,[b] officially known as Ligue 1 Uber Eats for sponsorship reasons,[1][2][3] is a French professional league for men's association football clubs. At the top of the French football league system, it is the country's primary football competition. Administrated by the Ligue de Football Professionnel, Ligue 1 is contested by 20 clubs and operates on a system of promotion and relegation from and to Ligue 2. </p>
-
-                      </article>
-                    </section>
-                      <section class="main-section" id="Eredivisie">
-                    <header>Eredivisie</header>
-                     <article>
-
-                     	<p> The Eredivisie consists of 18 clubs. Each club meets every other club twice during the season, once at home and once away. At the end of each season, the two clubs at the bottom are automatically relegated to the second level of the Dutch league system, the Eerste Divisie (First Division), while the champion and runner-up of the Eerste Divisie are automatically promoted to the Eredivisie. The club finishing third from the bottom of the bottom of the Eredivisie goes to separate promotion/relegation play-offs with eight high-placed clubs from the Eerste Divisie. </p>
-
-                      </article>
-                    </section>
-                      <section class="main-section" id="Erovnuli_Liga">
-                    <header>Erovnuli_Liga</header>
-                     <article>
-
-                     	<p> The Erovnuli Liga (Georgian: ეროვნული ლიგა - lit. National League) is the top division of professional football in Georgia. Since 1990, it has been organized by the Professional Football League of Georgia and Georgian Football Federation. From 1927 to 1989, the competition was held as a regional tournament within the Soviet Union. From 2017 Georgia switched to Spring-Autumn system, with only 10 clubs in the top flight. </p>
-
-
-
-                      </article>
-                    </section>
-              </main>
-          </div>
-        </div>
-      </div>
-
-      </section>
-  </section>
+</section>
+</section>
 <!--
   <button type="button" name="button"><a href="https://www.britannica.com/sports/football-soccer"> For more information click here!</a></button>
-  
+
 -->
 <footer class="footer">
  © 2022 | Designed By: Amima Shifa | All rights reserved
