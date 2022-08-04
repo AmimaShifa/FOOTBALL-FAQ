@@ -48,7 +48,8 @@ display:block;
 
       body{
         background-image:url("C:/Users/amima/Documents/back.png");
-
+        height:100%;
+            width:100%;
         background-size: cover;
         background-attachment: fixed;
         color:white;
@@ -159,7 +160,7 @@ summary{
   <a href="#faq"><li class="nav">FAQ</li></a>
 </ul><br><br>
 </div>
-    <section><br>
+    <section style="height:100%;"><br>
        <section id="intro">
     <h1 id="main">FOOTBALL</h1><br>
     <hr width="100%">
@@ -236,7 +237,8 @@ In its present format, the Champions League begins in late June with a prelimina
 </li>
 </ul>
 </section>
-<button type="button" name="button"><a href="https://www.britannica.com/sports/football-soccer"> For more information click here!</a></button>
+<center>
+<img style="width:50%;" src="file:///C:/Users/amima/Downloads/giphy.gif" alt="football game being played"></center>
 </section>
 <!--
   <button type="button" name="button"><a href="https://www.britannica.com/sports/football-soccer"> For more information click here!</a></button>
@@ -246,4 +248,21 @@ In its present format, the Champions League begins in late June with a prelimina
  © 2022 | Designed By: Amima Shifa | All rights reserved
 </footer>
 </body>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').click(function() {
+                if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) + ']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top
+                        }, 1000);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
 </html>
